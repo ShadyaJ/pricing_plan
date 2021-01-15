@@ -1,0 +1,59 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px auto;
+}
+
+.card {
+  border: 2px solid #89b0ae;
+  padding: 30px;
+  padding-bottom: 50px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card.special {
+  background-color: #89b0ae;
+  color: white;
+  padding: 60px 30px;
+}
+
+.card p {
+  font-size: 12px;
+  line-height: 1.2;
+  opacity: 0.8;
+}
+
+.last-p {
+  margin-bottom: 45px;
+}
+
+.card-price {
+  color: #89b0ae;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 0.6;
+}
+
+.card-price.special {
+  color: white;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+.fas.fa-check {
+  color:#3c6e71;
+  font-weight: bolder;
+}
+
+.fas.fa-times {
+  color: #a44a3f;
+  font-weight: bold;
+}
